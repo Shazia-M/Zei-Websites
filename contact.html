@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contact.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+  <div class="contact-section">
+    <div class="contact-left">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you! Fill out the form below or reach out directly, and we’ll get back to you as soon as possible.</p>
+
+      <div class="contact-info">
+        <!-- <div class="info-block">
+          <h3>Address</h3>
+          <p>123, Street # 456, X-Park,<br>Sabina Street, Sector 64, Gurugram-122018</p>
+        </div> -->
+
+        <div class="info-block">
+          <h3>Phone</h3>
+          <p>+91 9546596911 | +91 9523754401</p>
+        </div>
+
+        <div class="info-block">
+          <h3>Email</h3>
+          <p>zei.websites@gmail.com</p>
+        </div>
+
+        <!-- <div class="socials">
+          <a href="#"><img src="icon1.svg" alt=""></a>
+          <a href="#"><img src="icon2.svg" alt=""></a>
+          <a href="#"><img src="icon3.svg" alt=""></a>
+          <a href="#"><img src="icon4.svg" alt=""></a>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="contact-right">
+      <h2>GET IN TOUCH</h2>
+      <form id="contact-form">
+        <input type="text" id="name" name="user_name" placeholder="Name" required>
+        <input type="email" id="email" name="user_email" placeholder="Email" required>
+        <input type="text" id="phone" name="user_phone" placeholder="Phone number">
+        <textarea id="message" name="message" placeholder="Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+    <!-- <p class="success">Thank you! Your message has been sent successfully.</p>
+    <p class="error">Oops! Something went wrong, please try again.</p> -->
+
+
+  <script src="contact.js"></script>
+</body>
+</html>
